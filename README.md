@@ -9,10 +9,11 @@ or to show how we might use that new library you found at LHCb.
 
 Author: Igor Babuschkin
 
-Automatic differentiation[^1] (AD) allows you to calculate the derivatives of a
-function more precisely, and possibly faster than the commonly used finite
-differences method.  This is achieved by exploiting the exact structure of the
-code that implements the function.
+[Automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) (AD)
+allows you to calculate the derivatives of a function more precisely, and
+possibly faster than the commonly used finite differences method.  This is
+achieved by exploiting the exact structure of the code that implements the
+function.
 
 *Reverse mode* AD is particularly useful if you need to calculate the
 derivatives of a scalar-valued function with many inputs, as is the case for
@@ -33,4 +34,3 @@ parameters to remove physical boundaries from the minimization process.
 
 [Link to Jupyter notebook](/Likelihood with autodiff.ipynb)
 
-[^1]: [https://en.wikipedia.org/wiki/Automatic_differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation)
