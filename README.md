@@ -1,7 +1,7 @@
 # LHCb data analysis experiments
 
 This is a repository for demonstrating that cool new data analysis method you came up with,
-or to show how we might use that new library you found at LHCb.
+or to show how we might use that new library you found.
 
 # Contents
 
